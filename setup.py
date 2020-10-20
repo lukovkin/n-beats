@@ -16,7 +16,7 @@ if FRAMEWORK == 'keras':
     LIB_PACKAGE = ['nbeats_keras']
     INSTALL_REQUIRES.extend([
         'keras',
-        'tensorflow==2.0'
+        'tensorflow>=2.0'
     ])
 
 elif FRAMEWORK == 'pytorch':
